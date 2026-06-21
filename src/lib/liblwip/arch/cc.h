@@ -31,6 +31,9 @@
  *
  */
 
+/* NOTE: Don't include this file because they are included by framework-arduinopico */
+#define CC_H_INCLUDED
+
 #ifndef CC_H_INCLUDED
 #define CC_H_INCLUDED
 
