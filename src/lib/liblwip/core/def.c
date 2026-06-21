@@ -65,7 +65,8 @@
 
 #if BYTE_ORDER == LITTLE_ENDIAN
 
-#if !defined(lwip_htons)
+/* NOTE: Don't define this to not conflict with FrameworkArduino */
+#if 0
 /**
  * Convert an u16_t from host- to network byte order.
  *
@@ -79,7 +80,8 @@ lwip_htons(u16_t n)
 }
 #endif /* lwip_htons */
 
-#if !defined(lwip_htonl)
+/* NOTE: Don't define this to not conflict with FrameworkArduino */
+#if 0
 /**
  * Convert an u32_t from host- to network byte order.
  *
