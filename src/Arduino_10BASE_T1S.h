@@ -51,7 +51,8 @@ static int const IRQ_PIN   =  2;
 static int const CS_PIN    =  -1;
 static int const RESET_PIN =  -1;
 static int const IRQ_PIN   =  -1;
-# warning "No pins defined for your board"
+// annoying lul
+// # warning "No pins defined for your board"
 #endif
 
 /**************************************************************************************
