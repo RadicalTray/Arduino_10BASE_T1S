@@ -1,5 +1,10 @@
  Arduino Single Pair Ethernet (10BASE-T1S) Library
 ====================
+
+> [!WARNING]
+> Removed liblwip from this repo to stop conflicts with `libFrameworkArduino.a`, different versions could cause problems.
+> liblwip 2.1.3 (here) VS maaaaybe 2.2.x (libFrameworkArduino) <-- different minor version should be safe-ish tho
+
 [![Compile Examples](https://github.com/bcmi-labs/Arduino_10BASE_T1S/workflows/Compile%20Examples/badge.svg)](https://github.com/bcmi-labs/Arduino_10BASE_T1S/actions?workflow=Compile+Examples)
 [![Spell Check status](https://github.com/bcmi-labs/Arduino_10BASE_T1S/actions/workflows/spell-check-task.yml/badge.svg)](https://github.com/bcmi-labs/Arduino_10BASE_T1S/actions/workflows/spell-check-task.yml)
 [![Sync Labels status](https://github.com/bcmi-labs/Arduino_10BASE_T1S/actions/workflows/sync-labels.yml/badge.svg)](https://github.com/bcmi-labs/Arduino_10BASE_T1S/actions/workflows/sync-labels.yml)
