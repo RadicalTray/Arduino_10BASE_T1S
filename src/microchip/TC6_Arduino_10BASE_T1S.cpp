@@ -16,9 +16,9 @@
 
 #include "lib/libtc6/inc/tc6-regs.h"
 
-#include "lib/liblwip/include/lwip/init.h"
-#include "lib/liblwip/include/lwip/timeouts.h"
-#include "lib/liblwip/include/netif/etharp.h"
+#include <lwip/init.h>
+#include <lwip/timeouts.h>
+#include <netif/etharp.h>
 
 /**************************************************************************************
  * NAMESPACE
